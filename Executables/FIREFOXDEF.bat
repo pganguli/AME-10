@@ -1,0 +1,2 @@
+cd Executables
+setdefaultbrowser.exe HKLM Firefox-308046B0AF4A39CB

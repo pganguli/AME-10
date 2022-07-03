@@ -1,0 +1,8 @@
+---
+title: Malte Wallpapers
+description: Installs Malte Wallpapers
+privilege: Admin
+actions:
+  - !run:
+    currentDir: true
+    exe: "LOGIN.bat"

@@ -1,0 +1,15 @@
+---
+title: Custom
+description: Custom AME configuration
+privilege: Admin
+actions: []
+features:
+- features/base/base.yml
+- features/base/files.yml
+- features/base/shortcuts.yml
+- features/base/choco.yml
+- features/base/windowsterminal.yml
+- features/base/silent.yml
+- features/base/login.yml
+- features/base/wallpaper.yml
+- features/base/admin.yml

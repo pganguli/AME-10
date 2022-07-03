@@ -1,0 +1,1 @@
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Search\Gather\Windows\SystemIndex" /v "EnableFindMyFiles" /t REG_DWORD /d 1 /f

@@ -1,0 +1,1 @@
+"C:\Program Files\Python39\python.exe" remove_SecHealthUI_stub.py

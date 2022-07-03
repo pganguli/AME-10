@@ -1,0 +1,14 @@
+---
+title: Chocolatey
+description: Chocolatey configuration
+privilege: Admin
+actions:
+  - !run:
+    currentDir: true
+    exe: "CHOC.bat"
+  - !run:
+    currentDir: true
+    exe: "AME-Firefox-Injection-Script.cmd"
+  - !run:
+    currentDir: true
+    exe: "FIREFOXDEF.bat"
