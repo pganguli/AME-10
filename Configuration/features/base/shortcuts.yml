@@ -1,8 +1,0 @@
----
-title: Shortcuts
-description: Remove and add shortcuts
-privilege: Admin
-actions:
-  - !run:
-    currentDir: true
-    exe: "SHRT.bat"

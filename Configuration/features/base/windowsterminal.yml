@@ -1,8 +1,0 @@
----
-title: Windows Terminal
-description: Installs Windows Terminal
-privilege: Admin
-actions:
-  - !run:
-    currentDir: true
-    exe: "WINTERM.bat"

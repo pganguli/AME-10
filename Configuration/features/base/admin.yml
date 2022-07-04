@@ -1,8 +1,0 @@
----
-title: Admin
-description: Remove user from admin group, enable administrator account
-privilege: Admin
-actions:
-  - !run:
-    currentDir: true
-    exe: "ADMIN.bat"

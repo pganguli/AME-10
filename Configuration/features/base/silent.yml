@@ -1,7 +1,0 @@
----
-title: Silent Installers
-description: Silent Installers for Windows 7 Calculator, OldNewExplorer, and Hardentools
-privilege: Admin
-actions:
-  - !cmd:
-    command: "cd Executables & SLNT.bat"
