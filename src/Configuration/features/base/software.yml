@@ -41,7 +41,7 @@ actions:
     exeDir: true
     exe: "FIREFOX.bat"
     weight: 150
-    option: "browser-firefox"
+    option: "software"
 
   - !writeStatus: {status: 'Configuring start menu', option: "ui"}
   - !run:
@@ -56,7 +56,7 @@ actions:
     exe: 'choco.exe'
     args: 'install -y --force --allow-empty-checksums mpv'
     weight: 70
-    option: "media-mpv"
+    option: "software"
 
   - !writeStatus: {status: 'Installing 7zip', option: "software"}
   - !run:
