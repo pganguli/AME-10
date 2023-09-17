@@ -66,6 +66,30 @@ actions:
     weight: 50
     option: "software"
 
+  - !writeStatus: {status: 'Installing Notepad++', option: "software"}
+  - !run:
+    path: '%ProgramData%\chocolatey\bin'
+    exe: 'choco.exe'
+    args: 'install -y --force --allow-empty-checksums notepadplusplus'
+    weight: 50
+    option: "software"
+
+  - !writeStatus: {status: 'Installing Paint.NET', option: "software"}
+  - !run:
+    path: '%ProgramData%\chocolatey\bin'
+    exe: 'choco.exe'
+    args: 'install -y --force --allow-empty-checksums paint.net'
+    weight: 50
+    option: "software"
+
+  - !writeStatus: {status: 'Installing qBittorrent', option: "software"}
+  - !run:
+    path: '%ProgramData%\chocolatey\bin'
+    exe: 'choco.exe'
+    args: 'install -y --force --allow-empty-checksums qbittorrent'
+    weight: 50
+    option: "software"
+
   - !writeStatus: {status: 'Installing nomacs', option: "software"}
   - !run:
     path: '%ProgramData%\chocolatey\bin'

@@ -12,6 +12,7 @@ icacls "$env:ProgramData\Scoop" /grant Users:F /t | Out-Null
 
 scoop bucket add extras
 scoop install windows-terminal --global
+scoop install vim --global
 scoop install git --global
 
 $forwardData = $env:ProgramData.Replace('\','/')
